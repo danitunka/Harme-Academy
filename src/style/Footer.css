@@ -1,0 +1,38 @@
+.footer{
+    background: rgba(102, 54, 121, 0.4); 
+ 
+}
+h2{
+    text-align: center;
+}
+.contact{
+    color:rgb(19, 12, 12);
+    font-family:cursive;
+    display:grid;
+    grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr);
+     
+    
+}
+.contact-options{
+    margin:0 0 10px 10px;
+   
+   display:flex;
+   align-items: center;
+   gap:10px;
+   box-sizing: border-box;
+  
+}
+.contact-options a{
+    text-decoration: none;
+    color: rgb(19, 12, 12);
+}
+ @media(max-width:425px){
+    .contact{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    /* .contact-options{
+        justify-content: center;
+    } */
+ }

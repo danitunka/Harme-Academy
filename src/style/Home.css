@@ -1,0 +1,114 @@
+
+.home{
+   
+    background-image: url('../images/Home-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 100vh;
+    width: 100%;
+     background-position: center;
+     display: block;
+    
+}
+.home h2{
+    font-size:xx-large;
+    font-weight:bold;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+.home span{
+    color:yellow;
+}
+.home h3{
+
+    /* position: relative; */
+     /* justify-content: center; */
+   /* margin-top:20px;
+    left:20%; */
+    /* height: 600px; */
+    /* height:fit-content; */
+    /* width: 100%; */
+    /* min-width: 400px;  */
+   /* width:700px; */
+   line-height: 30px;
+    padding:20px;
+    margin-left: 30%;
+    width:400px;
+    text-align: center;
+    /* z-index: 2; */
+}
+.home .image img{
+    
+    width:200px;
+    height:200px;
+    position:absolute;
+    top:70%;
+    bottom:0;
+    right:5%;
+  
+    margin: 10px;
+  
+}
+/* .home h3{
+    float: left; 
+    margin-bottom: 20px;
+    padding:20px;
+     right:30%; 
+    z-index: 2;      
+    color: #fff;  
+} */
+
+
+ @media  (max-width:768px) {
+    .home{
+        top:0;
+       
+        background-image: url('../images/Home-bg.png'); 
+      background-size: cover; 
+        background-position: center; 
+
+    }
+   
+    .home h2{
+        padding: 10px;
+       
+    }
+    .home h3{
+       margin-left: 100px;
+        text-align: center;
+      width:300px;
+    }
+    .home img{
+        /* shape-outside:circle(50%); */
+    }
+    
+}  
+@media  (max-width:425px) {
+    .home{
+        display:block;
+        flex-direction: column;
+        top:0;
+        right:0;
+        height:fit-content;
+         /* overflow: hidden; */
+         /* background-image: url('../images/Home-bg.png'); 
+        background-size: 100% auto; 
+        background-position: center; */
+        
+    }
+   
+    .home h3{
+        /* order:1; */
+       
+        margin-left: 1rem;
+        width:200px;
+    }
+    .home .image img{
+        position: relative;
+        left:60px;
+        bottom: 30px;
+        width:150px;
+        height:150px;
+    }
+}
